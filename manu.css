@@ -6,11 +6,13 @@
 }
 .menu{
     display: flex;
+    overflow: hidden;
+    position: fixed;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     padding: 10px;
-    background-color: aquamarine;
+    background-color: aquamarine;   
 }
 .logo_text{
     font-family: "Montserrat", Sans-serif;
@@ -36,6 +38,9 @@
     color: black;
     font-weight: bold;
 }
+.menu ul li a:hover{
+    background-color: rgb(14, 226, 156);
+}
 .menu_icon{
     display: none;
 }
@@ -45,43 +50,3 @@
 }
 
 
-
-@media  screen and (max-width:890px) {
-    .menu ul{
-        margin-left: 0px;
-    }
-    .menu ul li a{padding:5px;}
-}
-@media  screen and (max-width:660px) {
-    body{
-        /* we can't sroll any more right side */
-        overflow-x: hidden;
-    }
-    .menu ul{
-        display: none;
-        /* position: absolute;
-        right: 0px;
-        width: 30vh;
-        height: 92vh;
-        top: 6vh;
-        color: black;
-        background-color: aquamarine;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 25px;
-        it will move full menu inside display
-        transform: translateX(100%); 
-        transition: transform 0.5s ease-in; */
-    }
-    .menu ul a{
-        /* overflow-x: hidden; */
-        font-size: 20px;
-        color: black;
-    }
-    .menu ul li{
-        opacity: 0;
-        color: black;
-    }
-    .menu_icon{display: block; cursor: pointer;}
-}
