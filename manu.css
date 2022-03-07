@@ -11,8 +11,9 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding: 10px;
-    background-color: aquamarine;   
+    padding: 20px;
+    /* background-color: aquamarine;    */
+    background-color: rgb(15, 209, 144);
 }
 .logo_text{
     font-family: "Montserrat", Sans-serif;
@@ -20,6 +21,7 @@
 }
 .logo_text a{
     text-decoration: none;
+    font-size: larger;
     color: black;
 }
 .menu ul{
@@ -31,6 +33,7 @@
     list-style: none;
 }
 .menu ul li a {
+    font-family: "Montserrat", Sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     padding: 5px 20px;
