@@ -52,31 +52,48 @@
     color: black;
 }
  /* hidden menu code  */
+
 .manu{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-}
-.manu ul{
     width: 100%;
-    /* padding: 20px; */
-    background-color: aquamarine;
+    /* margin-top: 20px; */
+    justify-content: space-around;
+    padding: 10px;
 }
 .manu ul li{
-    width: 100%;
     list-style: none;
-    padding: 10px;
 }
 .manu ul li a{
-    
-    padding: 10px;
+    width: 100%;
     text-align: center;
     text-decoration: none;
+    color: black;
+    padding: 20px 0px;
+    float: left;
+    background-color: rgb(15, 209, 144);
+    text-align: none;
+    font-size: 20px;
     font-weight: bold;
+    border-bottom: 2px solid black;
+}
+.manu ul a:hover{
+    background-color: rgb(42, 243, 176);
+}
+#menu{
+    display: none;
+    width: 100%;
+    /* margin-top: 150px; */
+    text-align: center;
+    font-family: "Montserrat", Sans-serif;
+    text-transform: uppercase;
+}
+.manu_header {
+    width: 100%;
+
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(15, 209, 144);
+    text-decoration: none;
+    font-size: larger;
     color: black;
 }
-.manu ul li a:hover{
-    background-color: aqua;
-}
-
-
